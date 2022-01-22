@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+#container {
+    text-align: center;
+}
+button {
+    margin: 25px;
+    width: 150px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 25px;
+    border: 0;
+}
+
+#grid {
+    margin: 25px;
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    border: solid 5px;
+}
+
+.grid-row {
+    display: flex;
+    outline: 1px solid;
+    flex: 1;
+}
+
+.grid-box {
+    flex: 1;
+    outline: 1px solid;
+}
