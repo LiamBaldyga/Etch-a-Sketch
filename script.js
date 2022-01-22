@@ -1,6 +1,8 @@
-// Create Grid
+//Initialize Grid on load
 window.onload = createGrid();
 window.onload = drawGrid;
+
+//Create Grid
 function createGrid(gridSize = 16) {
     let toAdd = document.createDocumentFragment();
     for (let i = 0; i <= gridSize; i++) {
